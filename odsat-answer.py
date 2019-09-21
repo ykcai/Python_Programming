@@ -9,6 +9,8 @@
 # Hint: This is just to test your memory of the basic arithmetic commands, work backwards from 100.25
 #--------------------------------Code between the lines!--------------------------------
 
+# Your answer is probably different
+print((60 + (10 ** 2) / 4 * 7) - 134.75)
 
 #--------------------------------------------------------------------------------------
 
@@ -17,14 +19,16 @@
 # What is the value of the expression 4 * 6 + 5
 # What is the value of the expression 4 + 6 * 5
 #--------------------------------Code between the lines!--------------------------------
-
+print(4 * (6 + 5))
+print(4 * 6 + 5)
+print(4 + 6 * 5)
 
 #--------------------------------------------------------------------------------------
 
 
 # What is the type of the result of the expression 3 + 1.5 + 4?
 #--------------------------------Code between the lines!--------------------------------
-
+print("Answer : Floating Point Number")
 
 #--------------------------------------------------------------------------------------
 
@@ -33,47 +37,44 @@
 # In [ ]: # Square root:
 # In [ ]: # Square:
 #--------------------------------Code between the lines!--------------------------------
-
-
+# Square root:
+100 ** 0.5
+# Square:
+10 ** 2
 #--------------------------------------------------------------------------------------
 
 
 # Given the string 'hello' give an index command that returns 'e'. Enter your code in the cell below:
 #--------------------------------Code between the lines!--------------------------------
 s = 'hello'
+# Print out 'e' using indexing
 
 print(s[1])
 #--------------------------------------------------------------------------------------
 
-# Print out 'e' using indexing
-#--------------------------------Code between the lines!--------------------------------
-s = "hello"
-
-print(s[-4])
-#--------------------------------------------------------------------------------------
-
-
 # Reverse the string 'hello' using slicing:
 #--------------------------------Code between the lines!--------------------------------
 s ='hello'
+# Reverse the string using slicing
 
-print(s[::-1])
+s[::-1]
 #--------------------------------------------------------------------------------------
 
 
 # Given the string hello, give two methods of producing the letter 'o' using indexing.
 #--------------------------------Code between the lines!--------------------------------
 s ='hello'
+# Method 2:
 
-print(s[4])
-print(s[-1])
+s[4]
 #--------------------------------------------------------------------------------------
 
 # Reassign 'hello' in this nested list to say 'goodbye' instead:
 #--------------------------------Code between the lines!--------------------------------
 list3 = [1,2,[3,4,'hello']]
-list3[2][2] = "goodbye"
-print(list3)
+
+list3[2][2] = 'goodbye'
+print(list3[2][2])
 #--------------------------------------------------------------------------------------
 
 # Dictionaries
@@ -81,13 +82,15 @@ print(list3)
 # Using keys and indexing, grab the 'hello' from the following dictionaries:
 #--------------------------------Code between the lines!--------------------------------
 d = {'simple_key':'hello'}
+# Grab 'hello'
 
-print(d['simple_key'])
+d['simple_key']
 #--------------------------------------------------------------------------------------
 
 # Grab 'hello'
 #--------------------------------Code between the lines!--------------------------------
 d = {'k1':{'k2':'hello'}}
+# Grab 'hello'
 
 print(d['k1']['k2'])
 #--------------------------------------------------------------------------------------
@@ -104,6 +107,8 @@ print(d['k1'][0]['nest_key'][1][0])
 #--------------------------------Code between the lines!--------------------------------
 d = {'k1':[1,2,{'k2':['this is tricky',{'tough':[1,2,['hello']]}]}]}
 
+print(d['k1'][2]['k2'][1]['tough'][2][0])
+
 #--------------------------------------------------------------------------------------
 
 
@@ -111,7 +116,7 @@ d = {'k1':[1,2,{'k2':['this is tricky',{'tough':[1,2,['hello']]}]}]}
 #--------------------------------Code between the lines!--------------------------------
 list5 = [1,2,2,33,4,4,11,22,3,3,2]
 
-
+print(set(list5))
 #--------------------------------------------------------------------------------------
 
 
@@ -123,6 +128,8 @@ l_two = [1,2,{'k1':4}]
 l_one[2][0] >= l_two[2]['k1']
 
 # This is slightly complex Boolean comparsion....we will take this up in class!
+
+print(l_one[2][0] >= l_two[2]['k1'])
 #--------------------------------------------------------------------------------------
 
 # Great Job on your first assessment!
