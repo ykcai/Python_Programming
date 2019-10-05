@@ -4,7 +4,7 @@
 
 # ** What is 7 to the power of 4?**
 
-7**4
+print(7**4)
 
 # ** Split this string:**
 #
@@ -14,9 +14,7 @@
 
 
 s = 'Hi there Sam!'
-
-
-s.split()
+print(s.split())
 
 
 # ** Given the variables:**
@@ -34,30 +32,24 @@ diameter = 12742
 
 
 print("The diameter of {} is {} kilometers.".format(planet, diameter))
+print(f"The diameter of {planet} is {diameter} kilometers")
+print("The diameter of %s is %s kilometers" %(planet, diameter))
 
 
 # ** Given this nested list, use indexing to grab the word "hello" **
 
 
 lst = [1, 2, [3, 4], [5, [100, 200, ['hello']], 23, 11], 1, 7]
-
-
-lst[3][1][2][0]
-
+print(lst[3][1][2][0])
 
 # ** Given this nest dictionary grab the word "hello". Be prepared, this will be annoying/tricky **
 
 
-d = {'k1': [1, 2, 3, {'tricky': ['oh', 'man',
-                                 'inception', {'target': [1, 2, 3, 'hello']}]}]}
-
-
-d['k1'][3]['tricky'][3]['target'][3]
+d = {'k1': [1, 2, 3, {'tricky': ['oh', 'man', 'inception', {'target': [1, 2, 3, 'hello']}]}]}
+print(d['k1'][3]['tricky'][3]['target'][3])
 
 
 # ** What is the main difference between a tuple and a list? **
-
-
 # Tuple is immutable
 
 
@@ -67,36 +59,48 @@ d['k1'][3]['tricky'][3]['target'][3]
 #
 # **So for example, passing "user@domain.com" would return: domain.com**
 
-
 def domainGet(email):
-    return email.split('@')[-1]
+    return email.split("@")[1]
+
+# def domainGet(email):
+#     return email.split('@')[-1]
 
 
-domainGet('user@domain.com')
+print(domainGet('user@domain.com'))
+print(domainGet('aweljfawfhu3fh98a@gmail.com'))
 
 
 # ** Create a basic function that returns True if the word 'dog' is contained in the input string. Don't worry about edge cases like a punctuation being attached to the word dog, but do account for capitalization. **
 
+def findDog(sentence):
+    word_list = sentence.lower().split()
+    for word in word_list:
+        if word == "dog":
+            return True
+    else:
+        return False 
 
-def findDog(st):
-    return 'dog' in st.lower().split()
+# def findDog(st):
+#     return 'dog' in st.lower().split()
 
-
-findDog('Is there a dog here?')
-
+print(findDog('Is there a dog here?'))
+print(findDog('a;ijlfew;oijh;ijewafi;u?'))
 
 # ** Create a function that counts the number of times the word "dog" occurs in a string. Again ignore edge cases. **
 
-
-def countDog(st):
+def countDog(sentence):
     count = 0
-    for word in st.lower().split():
-        if word == 'dog':
-            count += 1
+    for word in sentence.lower().split():
+        if word == "dog":
+            count = count + 1
     return count
-
-
-countDog('This dog runs faster than the other dog dude!')
+# def countDog(st):
+#     count = 0
+#     for word in st.lower().split():
+#         if word == 'dog':
+#             count += 1
+#     return count
+print(countDog('This dog runs faster than the other dog dude!'))
 
 
 # ** Use lambda expressions and the filter() function to filter out words from a list that don't start with the letter 's'. For example:**
@@ -110,8 +114,15 @@ countDog('This dog runs faster than the other dog dude!')
 
 seq = ['soup', 'dog', 'salad', 'cat', 'great']
 
+def startWithS(input_list):
+    answer = []
+    for word in input_list:
+        if word.lower()[0] == 's':
+            answer.append(word)
+    return answer
 
-list(filter(lambda word: word[0] == 's', seq))
+print(startWithS(seq))
+# print(list(filter(lambda word: word[0] == 's', seq)))
 
 
 # ### Final Problem
@@ -123,7 +134,6 @@ list(filter(lambda word: word[0] == 's', seq))
 
 
 def caught_speeding(speed, is_birthday):
-
     if is_birthday:
         speeding = speed - 5
     else:
@@ -136,11 +146,11 @@ def caught_speeding(speed, is_birthday):
     else:
         return 'No Ticket'
 
+print(caught_speeding(81, True))
+print(caught_speeding(81, False))
+print(caught_speeding(86, True))
+print(caught_speeding(65, True))
 
-caught_speeding(81, True)
-
-
-caught_speeding(81, False)
 
 
 # # Great job!
