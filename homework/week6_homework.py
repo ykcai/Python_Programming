@@ -14,15 +14,21 @@ def max_of_three(x, y, z):
 print(max_of_three(3, 6, -5))
 
 # 2. Write a Python function to sum all the numbers in a list.
-# Sample List: (8, 2, 3, 0, 7)
+# Sample List: [8, 2, 3, 0, 7]
 # Expected Output: 20
 
 
 def sum(numbers):
-    pass
+    result = 0
+    # Take out all the number and add them together
+    # for i in numbers:
+    #     result = result + i
+    for i in range(0, len(numbers)):
+        result = result + numbers[i]
+    return result
 
 
-print(sum((8, 2, 3, 0, 7)))
+print(sum([8, 2, 3, 0, 7]))
 
 
 # 3. Write a Python function to multiply all the numbers in a list.

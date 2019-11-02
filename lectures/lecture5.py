@@ -5,7 +5,7 @@
 
 
 def square(num):
-    return num + 2
+    return num ** 2
 
 
 my_list = [2, 4, 6, 8, 10]
