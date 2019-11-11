@@ -19,13 +19,7 @@ print(max_of_three(3, 6, -5))
 
 
 def sum(numbers):
-    result = 0
-    # Take out all the number and add them together
-    # for i in numbers:
-    #     result = result + i
-    for i in range(0, len(numbers)):
-        result = result + numbers[i]
-    return result
+    pass
 
 
 print(sum([8, 2, 3, 0, 7]))

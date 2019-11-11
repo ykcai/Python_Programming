@@ -17,6 +17,7 @@ Notes: There will always only be one integer that appears an odd number of times
 def find_odd(num_list):
     for num in num_list:
         if num_list.count(num) % 2:
+            # count gets how many times an item appears in a list
             return num
 
 
