@@ -14,10 +14,10 @@ print("Hello World"[::-1])
 # 4. None
 
 # Question 3
-# Which module in Python supports regular expressions?
-# 1. re
-# 2. regex
-# 3. pyregex
+# Which module in Python supports random functions?
+# 1. rendom
+# 2. rand
+# 3. random
 # 4. None of the above
 
 # Question 4
