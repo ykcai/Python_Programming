@@ -39,7 +39,7 @@ If you get this one right, I will let you skip the test!
 
 
 def profit(input_dict):
-    pass
+    print(input_dict['cost_price'])
 
 
 print(profit({
@@ -47,13 +47,13 @@ print(profit({
     "sell_price": 45.00,
     "inventory": 1200
 }))
-print(profit({
-    "cost_price": 225.89,
-    "sell_price": 550.00,
-    "inventory": 100
-}))
-print(profit({
-    "cost_price": 2.77,
-    "sell_price": 7.95,
-    "inventory": 8500
-}))
+# print(profit({
+#     "cost_price": 225.89,
+#     "sell_price": 550.00,
+#     "inventory": 100
+# }))
+# print(profit({
+#     "cost_price": 2.77,
+#     "sell_price": 7.95,
+#     "inventory": 8500
+# }))

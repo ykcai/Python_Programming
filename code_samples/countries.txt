@@ -1,0 +1,100 @@
+Aghanistan/Kabul
+Albania/Tirana
+Algeria/Algiers
+Andorra/Andorra la Vella
+Angola/Luanda
+Antigua and Barbuda/Saint John's
+Argentina/Buenos Aires
+Armenia/Yerevan
+Australia/Canberra
+Austria/Vienna
+Azerbaijan/Baku
+The Bahamas/Nassau
+Bahrain/Manama
+Bangladesh/Dhaka
+Barbados/Bridgetown
+Belarus/Minsk
+Belgium/Brussels
+Belize/Belmopan
+Benin/Porto-Novo
+Bhutan/Thimphu
+Bolivia/La Paz (administrative); Sucre (judicial)
+Bosnia and Herzegovina/Sarajevo
+Botswana/Gaborone
+Brazil/Brasilia
+Brunei/Bandar Seri Begawan
+Bulgaria/Sofia
+Burkina Faso/Ouagadougou
+Burundi/Gitega (changed from Bujumbura in December 2018)
+Cambodia/Phnom Penh
+Cameroon/Yaounde
+Canada/Ottawa
+Cape Verde/Praia
+Central African Republic/Bangui
+Chad/N'Djamena
+Chile/Santiago
+China/Beijing
+Colombia/Bogota
+Comoros/Moroni
+Congo, Republic of the/Brazzaville
+Congo, Democratic Republic of the/Kinshasa
+Costa Rica/San Jose
+Cote d'Ivoire/Yamoussoukro (official); Abidjan (de facto)
+Croatia/Zagreb
+Cuba/Havana
+Cyprus/Nicosia
+Czech Republic/Prague
+Denmark/Copenhagen
+Djibouti/Djibouti
+Dominica/Roseau
+Dominican Republic/Santo Domingo
+East Timor (Timor-Leste)/Dili
+Ecuador/Quito
+Egypt/Cairo
+El Salvador/San Salvador
+Equatorial Guinea/Malabo
+Eritrea/Asmara
+Estonia/Tallinn
+Ethiopia/Addis Ababa
+Fiji/Suva
+Finland/Helsinki
+France/Paris
+Gabon/Libreville
+The Gambia/Banjul
+Georgia/Tbilisi
+Germany/Berlin
+Ghana/Accra
+Greece/Athens
+Grenada/Saint George's
+Guatemala/Guatemala City
+Guinea/Conakry
+Guinea-Bissau/Bissau
+Guyana/Georgetown
+Haiti/Port-au-Prince
+Honduras/Tegucigalpa
+Hungary/Budapest
+Iceland/Reykjavik
+India/New Delhi
+Indonesia/Jakarta
+Iran/Tehran
+Iraq/Baghdad
+Ireland/Dublin
+Israel/Jerusalem*
+Italy/Rome
+Jamaica/Kingston
+Japan/Tokyo
+Jordan/Amman
+Kazakhstan/Astana
+Kenya/Nairobi
+Kiribati/Tarawa Atoll
+Korea, North/Pyongyang
+Korea, South/Seoul
+Kosovo/Pristina
+Kuwait/Kuwait City
+Kyrgyzstan/Bishkek
+Laos/Vientiane
+Latvia/Riga
+Lebanon/Beirut
+Lesotho/Maseru
+Liberia/Monrovia
+Libya/Tripoli

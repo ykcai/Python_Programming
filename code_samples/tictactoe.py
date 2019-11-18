@@ -145,10 +145,34 @@ while True:
             display_board(game_board)
             position = player_choice(game_board)
             place_marker(game_board, player_1, position)
+
+            if win_check(game_board, player_1):
+                display_board(game_board)
+                print(f"Congratulations! {turn}, you have won the game!")
+                game_on = False
+            else:
+                if full_board_check(game_board):
+                    display_board(game_board)
+                    print("The game is a draw!")
+                    break
+                else:
+                    turn = "Player 2"
         else:
             display_board(game_board)
             position = player_choice(game_board)
             place_marker(game_board, player_2, position)
+
+            if win_check(game_board, player_2):
+                display_board(game_board)
+                print(f"Congratulations! {turn}, you have won the game!")
+                game_on = False
+            else:
+                if full_board_check(game_board):
+                    display_board(game_board)
+                    print("The game is a draw!")
+                    break
+                else:
+                    turn = "Player 1"
 
     # After game ends, ask them to replay
     if not replay():

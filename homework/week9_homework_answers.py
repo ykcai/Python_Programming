@@ -39,9 +39,9 @@ If you get this one right, I will let you skip the test!
 
 
 def profit(input_dict):
-    cp = input_dict.get("cost_price")
-    sp = input_dict.get("sell_price")
-    no = input_dict.get("inventory")
+    cp = input_dict["cost_price"]
+    sp = input_dict["sell_price"]
+    no = input_dict["inventory"]
     total_profit = round((sp-cp)*no)
     return(total_profit)
     # Shorter Answer
