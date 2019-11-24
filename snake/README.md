@@ -260,7 +260,9 @@ if __name__ == '__main__':
     main()
 ```
 
-####First we will define some constants used in our game.
+## Step by Step Guide
+
+First we will define some constants used in our game.
 
 ```python
 class Cons:
