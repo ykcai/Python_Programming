@@ -167,8 +167,8 @@ class Board(Canvas):
             self.moveX = Cons.DOT_SIZE
             self.moveY = 0
 
-        RIGHT_CURSOR_KEY = "Up"
-        if key == RIGHT_CURSOR_KEY and self.moveY <= 0:
+        UP_CURSOR_KEY = "Up"
+        if key == UP_CURSOR_KEY and self.moveY <= 0:
 
             self.moveX = 0
             self.moveY = -Cons.DOT_SIZE
@@ -219,7 +219,7 @@ class Snake(Frame):
 def main():
 
     root = Tk()
-    nib = Snake()
+    game = Snake()
     root.mainloop()
 
 
