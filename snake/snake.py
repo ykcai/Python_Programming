@@ -6,11 +6,11 @@ from tkinter import Tk, Frame, Canvas, ALL, NW
 
 class Cons:
 
-    BOARD_WIDTH = 3000
-    BOARD_HEIGHT = 3000
+    BOARD_WIDTH = 1000
+    BOARD_HEIGHT = 1000
     DELAY = 100
     DOT_SIZE = 10
-    MAX_RAND_POS = 27
+    MAX_RAND_POS = 100
 
 
 class Board(Canvas):
